@@ -1,6 +1,6 @@
 [package]
 name = "octokit-rs"
-version = "0.1.3"
+version = "0.1.4"
 edition = "2021"
 description = "Octokit RS is a lib with the up-to-date Github types"
 authors = ["miaxos <anthony@griffon.one>"]
