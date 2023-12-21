@@ -20,6 +20,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
+          token: ${{ github.token }}
           fetch-depth: 0
 
       - name: Install Rust toolchain
@@ -28,4 +29,5 @@ jobs:
       - name: Run release-plz
         uses: MarcoIeni/release-plz-action@v0.5.27
         env:
+          GITHUB_TOKEN: ${{ github.token }}
           CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_TOKEN }}
