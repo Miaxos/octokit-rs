@@ -6,6 +6,7 @@ description = "Octokit RS is a lib with the up-to-date Github types"
 authors = ["(Miaxos) Anthony Griffon <anthony@griffon.one>"]
 homepage = "https://swarmd.io"
 repository = "https://github.com/miaxos/octokit-rs"
+documentation = "https://docs.rs/octokit-rs/latest/octokit_rs/"
 license = "MIT"
 keywords = ["octokit", "github"]
 
