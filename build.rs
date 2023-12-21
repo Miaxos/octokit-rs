@@ -8,10 +8,10 @@ const WEBHOOK_SCHEMA: &str = "https://unpkg.com/@octokit/webhooks-schemas/schema
 /// Download .json and apply typify.
 fn main() {
     let json = if env::var_os("DOCS_RS").is_some() {
-        let local_file = env::current_dir()
-            .unwrap()
-            .join("temps_doc_hack")
-            .join("schemas.json");
+        let local_file = PathBuf::from(env::var_os("CARGO_MANIFEST_DIR").unwrap())
+            .join("src")
+            .join("temps_doc")
+            .join("schema.json");
 
         let json: schemars::schema::RootSchema =
             serde_json::from_str(&std::fs::read_to_string(local_file).expect("Failed")).unwrap();
