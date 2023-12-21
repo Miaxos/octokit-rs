@@ -10,7 +10,7 @@ fn main() {
     let json = if env::var_os("DOCS_RS").is_some() {
         let local_file = PathBuf::from(env::var_os("CARGO_MANIFEST_DIR").unwrap())
             .join("src")
-            .join("temps_doc")
+            .join("temps_docs")
             .join("schema.json");
 
         let json: schemars::schema::RootSchema =
