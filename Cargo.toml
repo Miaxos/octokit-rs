@@ -1,0 +1,15 @@
+[package]
+name = "octokit-rs"
+version = "0.1.0"
+edition = "2021"
+description = "Octokit RS is a lib with the up-to-date Github types"
+authors = ["(Miaxos) Anthony Griffon <anthony@griffon.one>"]
+homepage = "https://swarmd.io"
+repository = "https://github.com/miaxos/octokit-rs"
+license = "MIT"
+keywords = ["octokit", "github"]
+
+[dependencies]
+chrono = { version = "0.4", features = ["serde"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
