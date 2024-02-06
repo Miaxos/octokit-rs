@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.11](https://github.com/Miaxos/octokit-rs/compare/v0.1.10...v0.1.11) - 2024-02-06
+
+### Other
+- *(deps)* update marcoieni/release-plz-action action to v0.5.39
+
 ## [0.1.10](https://github.com/Miaxos/octokit-rs/compare/v0.1.9...v0.1.10) - 2024-01-29
 
 ### Other
