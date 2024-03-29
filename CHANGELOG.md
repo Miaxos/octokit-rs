@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.15](https://github.com/Miaxos/octokit-rs/compare/v0.1.14...v0.1.15) - 2024-03-29
+
+### Other
+- *(deps)* update rust crate reqwest to 0.12
+- *(deps)* update marcoieni/release-plz-action action to v0.5.46
+- *(deps)* update marcoieni/release-plz-action action to v0.5.45
+
 ## [0.1.14](https://github.com/Miaxos/octokit-rs/compare/v0.1.13...v0.1.14) - 2024-03-08
 
 ### Other
