@@ -6,6 +6,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.16](https://github.com/Miaxos/octokit-rs/compare/v0.1.15...v0.1.16) - 2025-11-24
+
+### Other
+
+- Merge pull request [#46](https://github.com/Miaxos/octokit-rs/pull/46) from Miaxos/renovate/prettyplease-0.x-lockfile
+- Merge pull request [#47](https://github.com/Miaxos/octokit-rs/pull/47) from Miaxos/renovate/reqwest-0.x-lockfile
+- Merge pull request [#49](https://github.com/Miaxos/octokit-rs/pull/49) from Miaxos/renovate/serde_json-1.x-lockfile
+- Merge pull request [#51](https://github.com/Miaxos/octokit-rs/pull/51) from Miaxos/renovate/chrono-0.x-lockfile
+- *(deps)* update marcoieni/release-plz-action action to v0.5.94
+- *(deps)* update marcoieni/release-plz-action action to v0.5.51
+
 ## [0.1.15](https://github.com/Miaxos/octokit-rs/compare/v0.1.14...v0.1.15) - 2024-03-29
 
 ### Other
